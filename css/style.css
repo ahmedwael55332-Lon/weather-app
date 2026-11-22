@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    min-height: 100vh;
+    background-image: url(../imgs/russia-st-petersburg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.icons {
+    width: 2rem;
+    height: 2rem;
+}
+
+.navbar .nav-link {
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.navbar .nav-link:hover {
+    color: #2c6c7c;
+    transform: scale(1.1);
+}
+
+.today,
+.forecast {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 15px;
+    opacity: 0.9;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.today:hover,
+.forecast:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+footer .icons {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+footer .icons:hover {
+    color: rgb(173, 38, 38);
+    transform: scale(1.1);
+}

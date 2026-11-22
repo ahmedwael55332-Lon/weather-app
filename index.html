@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weatherapp</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="text-white">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-5">
+        <div class="container">
+            <div class="icons">
+                <i class="fa-solid fa-cloud fs-5"></i> </div>
+            <a class="navbar-brand" href="#">weather</a>
+            <div class="collapse navbar-collapse d-flex justify-content-center">
+                <ul class="navbar-nav d-flex justify-content-between">
+                    <li class="nav-item me-3"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">News</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Live Cameras</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Photos</a></li>
+                    <li class="nav-item me-3"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header class="d-flex" style="min-height: 64.9vh;">
+        <div class="container my-4">
+            <div class="input-group w-75 mx-auto mb-4 rounded-circle ">
+                <input type="text" id="search" class="form-control" placeholder="what country u looking for to know the weather..?">
+                <button class="btn btn-info">search</button>
+            </div>
+
+            <div class="row py-5" id="forecast">
+                <div class="col-md-4 "></div>
+                <div class="col-md-4"></div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <footer class="text-center text-white py-5  bg-dark">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+
+                <div class="col-md-8 text-center">
+                    <input type="email" name="email" id="ed" placeholder="enter your email to subscribe..." class="w-75 border border-4 rounded">
+                    <label for="ed">
+          <button class="rounded-4 bg-dark text-white">subscribe</button>
+        </label>
+                    <p class="mt-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+
+                <div class="col-md-4 text-md-end text-center p-3">
+                    <div class="social-media d-flex text-black ps-1 ">
+                        <div class="icons me-2 d-flex align-items-center justify-content-center border border-light rounded-circle bg-secondary fs-3">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="icons  me-2 d-flex align-items-center justify-content-center border border-light rounded-circle bg-secondary fs-3">
+                            <i class="fa-brands fa-discord"></i> </div>
+                        <div class="icons  me-2 d-flex align-items-center justify-content-center border border-light rounded-circle bg-secondary fs-3">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div class="icons  me-2 d-flex align-items-center justify-content-center border border-light rounded-circle bg-secondary fs-3">
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                        <div class="icons  me-2 d-flex align-items-center justify-content-center border border-light rounded-circle bg-secondary fs-3">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
